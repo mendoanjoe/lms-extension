@@ -1,0 +1,16 @@
+{
+    "name": "Telkom-Task",
+    "version": "1.0",
+    "manifest_version": 3,
+    "author": "Firmansyah Nuralif Rohman <mendoanjoe@gmail.com>",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "contextMenus",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "view/popup.html"
+    }
+}
