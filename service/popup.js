@@ -96,6 +96,8 @@ async function getListTask(email, password, token) {
         });
       })
       .catch((error) => console.log("error", error));
+
+    $(".login-page").remove()
   }
 }
 
